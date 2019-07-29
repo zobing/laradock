@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introductions on Laradock</title>
+    <link>https://laradock.io/introduction.html</link>
+    <description>Recent content in Introductions on Laradock</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://laradock.io/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1. Introduction</title>
+      <link>https://laradock.io/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://laradock.io/introduction/</guid>
+      <description>Use Docker First - Then Learn About It Later Laradock is a PHP development environment that runs on Docker.
+Supports a variety of useful Docker Images, pre-configured to provide a wonderful PHP development environment.
+
+Sponsors        
+For basic sponsorships go to Open Collective, for golden sponsorships contact support@laradock.io. Your logo will show up on the github repository index page and the documentation main page, with a link to your website.</description>
+    </item>
+    
+  </channel>
+</rss>
