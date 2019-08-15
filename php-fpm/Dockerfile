@@ -746,7 +746,8 @@ RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     rm /var/log/lastlog /var/log/faillog
 
-RUN usermod -u 1000 www-data
+RUN addgroup -g 1000 www-data
+RUN usermod -u 1000 -g 1000 www-data
 
 # Adding the faketime library to the preload file needs to be done last
 # otherwise it will preload it for all commands that follow in this file
