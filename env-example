@@ -768,3 +768,7 @@ CASSANDRA_ENABLE_RPC=true
 CASSANDRA_DATACENTER=dc1
 # Rack name for the cluster. Ignored in SimpleSnitch endpoint snitch. Default: rack1.
 CASSANDRA_RACK=rack1
+
+### nodejs ################################################
+
+NODEJS_HTTP_PORT=3000

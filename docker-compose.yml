@@ -284,6 +284,7 @@ services:
         - "${NGINX_HOST_HTTP_PORTS}"
       depends_on:
         - php-fpm
+        - nodejs
       networks:
         - frontend
         - backend
@@ -1573,3 +1574,19 @@ services:
         - postgres
       volumes:
         - ${DATA_PATH_HOST}/Confluence:/var/atlassian/application-data
+
+### nodejs ##############################################
+    nodejs:
+      build: ./nodejs
+      ports:
+        - "${NODEJS_HTTP_PORT}:3000"
+      user: "node"
+      working_dir: /home/node/app
+      volumes:
+        - ${APP_CODE_PATH_HOST}academenode/:/home/node/app
+      command: "npm start"
+      networks:
+        - frontend
+        - backend
+
+

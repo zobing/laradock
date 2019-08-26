@@ -1,0 +1,3 @@
+FROM node:10.16
+
+EXPOSE 3000
