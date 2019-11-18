@@ -284,7 +284,6 @@ services:
         - "${NGINX_HOST_HTTP_PORTS}"
       depends_on:
         - php-fpm
-        - nodejs
       networks:
         - frontend
         - backend
